@@ -7,7 +7,7 @@ class UsersController < ApplicationController
 
   # POST /users
   def create
-    @user = User.create!(todo_params)
+    @user = User.create!(user_params)
     json_response(@user, :created)
   end
 

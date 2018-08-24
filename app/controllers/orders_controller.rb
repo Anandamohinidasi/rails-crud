@@ -7,7 +7,7 @@ class OrdersController < ApplicationController
 
   # POST /orders
   def create
-    @user = User.create!(todo_params)
+    @user = User.create!(order_params)
     json_response(@user, :created)
   end
 
