@@ -1,24 +1,13 @@
-# README
+# Store Project with User and Supplier login
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+To run this project do: 
+* bundle install
+* rake db:migrate
+* rails s
 
-Things you may want to cover:
 
-* Ruby version
+Stack:
 
-* System dependencies
+* Ruby 1.4
 
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+* Rails 5
